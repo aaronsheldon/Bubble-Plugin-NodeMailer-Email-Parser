@@ -1,0 +1,17 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "productivity",
+        "2": "data (things)",
+        "3": "web scraping",
+        "4": "email"
+    },
+    "demo_page": "",
+    "description": "A thin wrapper around the Node.js mailparser module to resolve base 64 encoded RFC5322 formatted messages into structured fields. The mailparser module is maintained as part of the NodeMailer project.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1620147996021x602224544373560000/nm_logo_200x136.png",
+    "license": "open_source",
+    "link": "http://nodemailer.com/extras/mailparser/",
+    "name": "NodeMailer Email Parser",
+    "plugin_instructions": "The plugin provides the following actions that wrap IMAPFlow functions:\n\n\"Parse Raw Email\" accepts a base 64 string containing the full RFC5322 formatted message. Returns a flattened representation of the RFC5322 tree, including three list fields containing attachment information. A list of attachment file names, a list of MIME content types, and the list of base 64 encoded contents.",
+    "sa_node_version": 14
+}

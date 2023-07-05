@@ -1,0 +1,111 @@
+{
+    "category": "plugins",
+    "display": "Parse Raw Email",
+    "fields": {
+        "ACX": {
+            "caption": "Raw Email",
+            "doc": "Raw email in base 64",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "rawemail",
+            "rank": 1,
+            "value": "text"
+        },
+        "ADm": {
+            "caption": "simpleParser is the easiest way to parse emails. You only need to provide a message source to get a parsed email structure in return. As an additional bonus all embedded images in HTML (eg. the images that point to attachments using cid: URIs) are replaced with base64 encoded data URIs, so the message can be displayed without any additional processing. Be aware though that this module does not do any security cleansing (eg. removing javascript and so on), this is left to your own application.",
+            "editor": "Label",
+            "name": "information",
+            "rank": 0
+        }
+    },
+    "return_value": {
+        "ABm": {
+            "caption": "Header Date",
+            "name": "headerdate",
+            "rank": 5,
+            "value": "date"
+        },
+        "ABn": {
+            "caption": "Header Subject",
+            "name": "headersubject",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABo": {
+            "caption": "Header Message Id",
+            "name": "headermessageid",
+            "rank": 6,
+            "value": "text"
+        },
+        "ABp": {
+            "caption": "Header In Reply To",
+            "name": "headerinreplyto",
+            "rank": 7,
+            "value": "text"
+        },
+        "ABq": {
+            "caption": "Header From",
+            "is_list": true,
+            "name": "headerfrom",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABs": {
+            "caption": "Header Reply To",
+            "is_list": true,
+            "name": "headerreplyto",
+            "rank": 8,
+            "value": "text"
+        },
+        "ABt": {
+            "caption": "Header To",
+            "is_list": true,
+            "name": "headerto",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABu": {
+            "caption": "Header CC",
+            "is_list": true,
+            "name": "headercc",
+            "rank": 3,
+            "value": "text"
+        },
+        "ABv": {
+            "caption": "Header BCC",
+            "is_list": true,
+            "name": "headerbcc",
+            "rank": 4,
+            "value": "text"
+        },
+        "ACG": {
+            "caption": "Body HTML (Insecure)",
+            "name": "bodyhtml",
+            "rank": 9,
+            "value": "text"
+        },
+        "ACI": {
+            "caption": "Attachment Names",
+            "is_list": true,
+            "name": "attachmentnames",
+            "rank": 10,
+            "value": "text"
+        },
+        "ACJ": {
+            "caption": "Attachment Types",
+            "is_list": true,
+            "name": "attachmenttypes",
+            "rank": 11,
+            "value": "text"
+        },
+        "ACK": {
+            "caption": "Attachment Contents",
+            "is_list": true,
+            "name": "attachmentccontents",
+            "rank": 12,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
