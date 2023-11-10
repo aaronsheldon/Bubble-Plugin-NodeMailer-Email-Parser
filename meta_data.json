@@ -13,5 +13,5 @@
     "link": "http://nodemailer.com/extras/mailparser/",
     "name": "NodeMailer Email Parser",
     "plugin_instructions": "The plugin provides the following actions that wrap IMAPFlow functions:\n\n\"Parse Raw Email\" accepts a base 64 string containing the full RFC5322 formatted message. Returns a flattened representation of the RFC5322 tree, including three list fields containing attachment information. A list of attachment file names, a list of MIME content types, and the list of base 64 encoded contents.",
-    "sa_node_version": 14
+    "sa_node_version": 18
 }
